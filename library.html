@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="https://www.kiet.edu/"><img
+                    src="https://www.kiet.edu/assets/frontend/img/logo.png" alt="KIET Group of Institutions"
+                    class="desktop img-fluid"></a>
+        </div>
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/erp.html">ERP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.kiet.edu/university-toppers">Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/library.html">Library</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/Career.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/Contact.html">Contact us</a>
+                    </li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                </ul>
+               
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://www.kiet.edu/uploads/department/krc/Library%20Pic_3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.kiet.edu/uploads/department/krc/Library%20Pic_2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.kiet.edu/uploads/department/krc/Library%20Pic_7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.kiet.edu/uploads/department/krc/Library%20Pic_6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+                <img src="img1.jpg" alt="img1">
+              </div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="https://archive.org/details/readinggballadof00wildrich/page/n11/mode/2up?ref=ol&view=theater" class="icon-link d-inline-flex align-items-center">
+                Read
+                
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+                <img src="img2.jpg" alt="img2" width="180" height="287">
+              </div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="https://archive.org/details/cu31924079589275/mode/2up?ref=ol&view=theater" class="icon-link d-inline-flex align-items-center">
+                Read
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+                <img src="img3.jpg" alt="img3" width="180" height="287">
+              </div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="https://archive.org/details/englishsatires00smea/mode/2up?ref=ol&view=theater" class="icon-link d-inline-flex align-items-center">
+                Read
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+          </div>
+
+            </div>
+        </div>
+    </div>
+     <div class="container">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+                <img src="img5.jpg" alt="img4" >
+              </div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="https://openlibrary.org/books/OL19293115M/Tuesdays_with_Morrie" class="icon-link d-inline-flex align-items-center">
+                Barrow
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+                <img src="img6.jpg" alt="img6" width="180" height="257">
+              </div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="https://openlibrary.org/books/OL32831159M/A_Little_Life" class="icon-link d-inline-flex align-items-center">
+                Barrow
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+                <img src="img7.jpg" alt="img7" width="180" height="257">
+              </div>
+              <h2>Featured title</h2>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="https://openlibrary.org/books/OL33890423M/Harry_Potter_and_the_Deathly_Hallows" class="icon-link d-inline-flex align-items-center">
+                Barrow
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+          </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="img8.jpg" alt="" width="54" height="50">
+            <small class="d-block mb-3 text-muted"><b>© 2022</b></small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Courses and Admission</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/course">Courses</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/home/adam">ADAM Courses</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/home/caw">CAW Courses</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/home/industry_course">Industry Readiness Courses</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/about-humanities-social-science">H&S</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/home/schoolsofstudies">School of Study</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Important</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/about-hr">Careers</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/admission-procedure">How To Apply</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/kiet-infrastructure">FAQ's </a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://admission.kiet.edu/">Apply Online</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/overview">Overview</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/founders-trustees">Founders and Trustees</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/academic-council">Academic Leadership</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="https://www.kiet.edu/kiet-infrastructure">Infrastructure</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+</html>

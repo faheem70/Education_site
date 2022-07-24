@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>KIET College-Contact us</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="https://www.kiet.edu/"><img
+                    src="https://www.kiet.edu/assets/frontend/img/logo.png" alt="KIET Group of Institutions"
+                    class="desktop img-fluid"></a>
+        </div>
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/erp.html">ERP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.kiet.edu/university-toppers">Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/library.html">Library</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/Career.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/Contact.html">Contact us</a>
+                    </li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <h3>PLACEMENT</h3>
+                <p>Arvind Kumar Sharma | Head-CRPC
+                    Corporate Relations &amp; Placement Centre
+                    <a href="mailto:arvind.sharma.crpc@kiet.edu">arvind.sharma.crpc@kiet.edu</a>
+                </p>
+
+                <h3>EX STUDENT VERIFICATION</h3>
+                <p>Student Services Bureau <br>
+                    Plot No. 123, IInd Floor, Udyog Vihar, Phase-IV,<br>
+                    Gurgaon-122015 Haryana, India<br>
+                    Tel : +91-124-4609800<br>
+                    Mobile : +91 8802140619<br>
+                    Email : <a href="mailto:support@studentservicesbureau.com">support@studentservicesbureau.com</a><br>
+                    URL : <a href="https://www.studentservicesbureau.com"
+                        target="_blank">https://www.studentservicesbureau.com</a></p>
+            </div>
+            <div class="col-sm-7">
+                <h3>SUBMIT AN ONLINE ENQUIRY</h3>
+                <form id="contactForm" method="post" action="https://www.kiet.edu/home/save_contactus">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+
+                                <input data-error="Please enter your name" type="text" class="form-control" id="fname"
+                                    placeholder="Full Name*" name="fname" value="">
+                                <div class="help-block with-errors">
+                                    <p class="help-block">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="address" name="address"
+                                    placeholder="Address*" data-error="address" value="">
+                                <div class="help-block with-errors">
+                                    <p class="help-block">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phoneno" name="phoneno"
+                                    placeholder="Phone no" data-error="phoneno" value="">
+                                <div class="help-block with-errors">
+                                    <p class="help-block">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="mobileno" name="mobileno"
+                                    placeholder="Mobile no.*" data-error="mobileno" value="">
+                                <div class="help-block with-errors">
+                                    <p class="help-block">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" placeholder="Email*" id="email" class="form-control" name="email"
+                                    data-error="Please enter your email" value="">
+                                <div class="help-block with-errors">
+                                    <p class="help-block">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="query" name="query" placeholder="Query*"
+                                    data-error="query" value="">
+                                <div class="help-block with-errors">
+                                    <p class="help-block">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <div class="arrow-icon"><img
+                                        src="https://www.kiet.edu/assets/frontend/img/arrow-icon.png"></div>
+                                <select name="admission" id="admission">
+                                    <option selected="">Admission</option>
+                                    <option value="Alumni">Alumni</option>
+                                    <option value="Placements">Placements</option>
+                                    <option value="ADAM Admission">ADAM Admission</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                                <div class="help-block with-errors">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Description" rows="3"
+                                    data-error="Write your message"></textarea>
+                                <div class="help-block with-errors">
+                                </div>
+                            </div>
+                            <div class="submit-button">
+                                <button class="btn btn-primary" id="submit" type="submit"> Submit</button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="img8.jpg" alt="" width="54" height="50">
+                <small class="d-block mb-3 text-muted"><b>© 2022</b></small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Courses and Admission</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/course">Courses</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/home/adam">ADAM Courses</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/home/caw">CAW Courses</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/home/industry_course">Industry Readiness Courses</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/about-humanities-social-science">H&S</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/home/schoolsofstudies">School of Study</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Important</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/about-hr">Careers</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/admission-procedure">How To Apply</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/kiet-infrastructure">FAQ's </a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://admission.kiet.edu/">Apply Online</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/overview">Overview</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/founders-trustees">Founders and Trustees</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/academic-council">Academic Leadership</a></li>
+                    <li class="mb-1"><a class="link-secondary text-decoration-none"
+                            href="https://www.kiet.edu/kiet-infrastructure">Infrastructure</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.col-sm-6 ul{
+    list-style-type: none;
+}
+ .counter-text{
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+}
+.counter-box ul li {
+    display: inline-block;
+    text-align: left;
+    padding: 50px 0px;
+    width: 30%;
+    vertical-align: top;
+    border-top: 1px solid #1debae;
+    margin-right: 14px;
+}
+
+.inner-left-menu div#accordion {
+    margin-top: 0;
+}
+.inner-left-menu ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+}
+.inner-left-menu li.active a {
+    color: #3c5a8f;
+    font-weight: 500!important;
+}
